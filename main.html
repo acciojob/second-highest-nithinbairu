@@ -20,7 +20,8 @@
 					secmax=max;
 					max=arr[i];}
 			}
-			return secmax === -Infinity ? "-Infinity" : secmax;
+			if(max==secmax) return "-Infinity"
+			return secmax;
 			
 		}
 
